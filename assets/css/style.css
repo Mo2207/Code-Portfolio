@@ -1,5 +1,15 @@
-body {
-  background-color: aqua;
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: rgba(0, 0, 0, 0.424);
+}
+
+nav a {
+  text-decoration: none;
+  margin: 2% 2%;
+  color: black;
 }
 
 main {
@@ -8,19 +18,12 @@ main {
   margin-top: 15%;
 }
 
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-
-nav a {
-  text-decoration: none;
-  margin: 2% 2%;
-}
-
-.Introduction {
+.introduction {
   margin: 0 0 3% 0;
+}
+
+.introduction h1 {
+  margin: 0 0 2% 0;
 }
 
 .projects {
@@ -30,8 +33,13 @@ nav a {
 }
 
 article {
-  border: 3px black;
+  border: 3px solid black;
+  padding: 1% 1% 1% 1%;
   margin: 5% 2% 1% 0;
+}
+
+.box a {
+  text-decoration: none;
 }
 
 /* sizing for desktop */
