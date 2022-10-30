@@ -1,0 +1,51 @@
+body {
+
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 10px
+}
+
+.Introduction {
+
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.projects a {
+  width: 33.33%;
+  
+}
+
+/* sizing for desktop */
+@media screen and (max-width: 992px) {
+  body {
+    background-color: rgb(230, 57, 22);
+  }
+} 
+
+
+/* sizing for tablets */
+@media screen and (max-width: 768px) {
+  body {
+    background-color: aqua;
+  }
+} 
+
+/* sizing for mobile */
+@media screen and (max-width: 576px) {
+  body {
+    background-color: blue;
+  }
+} 
