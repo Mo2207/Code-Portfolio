@@ -1,4 +1,11 @@
 
+body {
+  /* background-image: url(/assets/images/pexels-sagui-andrea-618833.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
 nav {
   display: flex;
   flex-direction: row;
@@ -34,7 +41,10 @@ main {
 
 article {
   border: 3px solid black;
-  padding: 1% 1% 1% 1%;
+  box-sizing: border-box;
+  height: 40px;
+  width: 60;
+  /* padding: 3%; */
   margin: 5% 2% 1% 0;
 }
 
