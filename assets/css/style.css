@@ -1,6 +1,7 @@
 
 body {
-  /* background-image: url(/assets/images/pexels-sagui-andrea-618833.jpg);
+  background-color: rgba(202, 202, 202, 0.739);
+  /* background-image: url(/assets/images/photo-1497032628192-86f99bcd76bc.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; */
@@ -15,53 +16,80 @@ nav {
 
 nav a {
   text-decoration: none;
-  margin: 2% 2%;
+  font-size: 1.2vw;
+  margin: 1% 2%;
   color: black;
 }
 
 main {
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 15%;
+  margin: 15% 10% 15% 10%;
 }
 
 .introduction {
-  margin: 0 0 3% 0;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0 0 10% 0;
 }
 
-.introduction h1 {
-  margin: 0 0 2% 0;
+.introduction img {
+  width: 25vw;
+  display: flex;
+  align-items: flex-end;
+}
+
+.about_me h1 {
+  margin-bottom: 5%;
+}
+
+.about_me {
+  font-size: 2.0vw;
+  margin: 3% 20% 2% 5%;
 }
 
 .projects {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 400px;
+  margin-top: 30vh;
+}
+
+.projects h2 {
+  font-size: 2vw;
+  margin-left: 3%;
 }
 
 article {
-  border: 3px solid black;
-  border-radius: 10px;
-  padding: 3%;
-  margin: 5% 2% 1% 0;
-  font-size: 1.2em;
+  
 }
 
 .box {
+  border: 8px solid rgb(22, 102, 155);
+  border-radius: 5px;
+  box-shadow: 6px 6px rgba(0, 0, 0, 0.483);
+  padding: 3%;
+  margin: 5% 2% 4% 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
-  width: 200px
+  height: 10vh;
+  width: 30vw;
 }
 
 .box a {
   text-decoration: none;
+  font-size: 2vw;
+  color: black;
+}
+
+#horiseon {
+  height: 40vh;
+  width: 80vw;
 }
 
 /* sizing for desktop */
 @media screen and (max-width: 1200px) {
- 
+
 } 
 
 
