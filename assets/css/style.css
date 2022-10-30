@@ -1,5 +1,11 @@
 body {
+  background-color: aqua;
+}
 
+main {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 15%;
 }
 
 nav {
@@ -10,36 +16,34 @@ nav {
 
 nav a {
   text-decoration: none;
-  margin: 10px
+  margin: 2% 2%;
 }
 
 .Introduction {
-
+  margin: 0 0 3% 0;
 }
 
 .projects {
   display: flex;
   flex-direction: row;
-  
+  flex-wrap: wrap;
 }
 
-.projects a {
-  width: 33.33%;
-  
+article {
+  border: 3px black;
+  margin: 5% 2% 1% 0;
 }
 
 /* sizing for desktop */
-@media screen and (max-width: 992px) {
-  body {
-    background-color: rgb(230, 57, 22);
-  }
+@media screen and (max-width: 1200px) {
+ 
 } 
 
 
 /* sizing for tablets */
 @media screen and (max-width: 768px) {
   body {
-    background-color: aqua;
+    background-color: rgb(203, 36, 36);
   }
 } 
 
