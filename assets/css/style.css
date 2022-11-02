@@ -96,10 +96,9 @@ nav a {
   width: 65vw;
 }
 #horiseon a {
-  height: 100%;
   width: 100%;
-  background-image: url(/assets/images/New\ screenshot\ 2022-10-30\ at\ 6.51.21\ PM.png);
-  background-repeat: no-repeat;
+  height: 100%;
+  background-image: url(/assets/images/Horiseon_Refactored.png);
   background-size: 100% 100%;
 }
 
@@ -120,22 +119,38 @@ footer a {
 
 /* sizing for desktop */
 @media screen and (max-width: 1200px) {
-    /* body {
-    background-color: red;
-  } */
+  .box a {
+    display: inline-block;
+    height: 40%;
+    width: 40%;
+  }
+  #horiseon {
+    height: 35vh;
+    width: 65vw;
+  }
 } 
 
 
 /* sizing for tablets */
 @media screen and (max-width: 768px) {
-  /* body {
-    background-color: rgb(203, 36, 36);
-  } */
+  .box {
+    height: 20%;
+    width: 40%;
+  }
+  #horiseon {
+    height: 30vh;
+    width: 60vw;
+  }
 } 
 
 /* sizing for mobile */
 @media screen and (max-width: 576px) {
-  /* body {
-    background-color: blue;
-  } */
+  .box {
+    height: 20%;
+    width: 40%;
+  }
+  #horiseon {
+    height: 18vh;
+    width: 50vw;
+  }
 } 
