@@ -69,7 +69,7 @@ nav a {
 .box {
   border: 0.3vw solid rgba(192, 192, 192, 0.352);
   border-radius: 5px;
-  margin: 3% 2% 2% 0;
+  margin: 2% 0 2% 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,6 +85,9 @@ nav a {
   text-decoration: none;
   font-size: 2.5vw;
   color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Horiseon ID Section */
@@ -100,12 +103,13 @@ nav a {
   height: 100%;
   background-image: url(/assets/images/Horiseon_Refactored.png);
   background-size: 100% 100%;
+  font-size: 4vw;
+  font-style: bold;
 }
 
 /* Footer Section */
 footer {
   font-size: 1.2vw;
-
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -117,10 +121,12 @@ footer a {
   text-decoration: none;
 }
 
+
+/* Media Queries */
+
 /* sizing for desktop */
 @media screen and (max-width: 1200px) {
   .box a {
-    display: inline-block;
     height: 40%;
     width: 40%;
   }
@@ -130,12 +136,15 @@ footer a {
   }
 } 
 
-
 /* sizing for tablets */
 @media screen and (max-width: 768px) {
-  .box {
-    height: 20%;
-    width: 40%;
+  .box a {
+    height: 30%;
+    width: 30%;
+  }
+  .box:hover {
+    border: 3px solid white;
+    box-shadow: 5px 7px black;
   }
   #horiseon {
     height: 30vh;
@@ -145,9 +154,13 @@ footer a {
 
 /* sizing for mobile */
 @media screen and (max-width: 576px) {
-  .box {
+  .box a {
     height: 20%;
-    width: 40%;
+    width: 20%;
+  }
+  .box:hover {
+    border: 2px solid white;
+    box-shadow: 2px 3px black;
   }
   #horiseon {
     height: 18vh;
