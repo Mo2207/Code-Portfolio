@@ -13,7 +13,7 @@ This project can be viewed using the live server or view in default browser exte
 Or it can be viewed on github pages here: https://mo2207.github.io/Code-Portfolio/
 
 ## Usage:
-!["Gabe's Portfolio Screesnshot"](/assets/images/Portfolio_screenshot.png)
+!["Gabe's Portfolio Screesnshot"](./assets/images/Portfolio_screenshot.png)
 
 ## Credits:
 This project is my own, and is a work in progress as I plan on expanding it along with the future projects I will be adding to it.

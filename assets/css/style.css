@@ -101,7 +101,7 @@ nav a {
 #horiseon a {
   width: 100%;
   height: 100%;
-  background-image: url(.//images/Horiseon_Refactored.png);
+  background-image: url(../images/Horiseon_Refactored.png);
   background-size: 100% 100%;
   font-size: 4vw;
   font-style: bold;
