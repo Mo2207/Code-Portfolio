@@ -1,0 +1,23 @@
+{
+  "name": "code-portfolio",
+  "version": "1.0.0",
+  "description": "A portfolio for my code applications and projects.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i assets/src/input.css -o assets/css/main.css",
+    "watch": "tailwindcss -i assets/src/input.css -o assets/css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mo2207/Code-Portfolio.git"
+  },
+  "author": "Gabe Morris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mo2207/Code-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Mo2207/Code-Portfolio#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
